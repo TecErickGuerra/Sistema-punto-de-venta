@@ -1,0 +1,15 @@
+.reporte-ventas {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.reporte-ventas ul {
+  padding-left: 1.2rem;
+}
+
+.reporte-ventas li {
+  margin-bottom: 0.5rem;
+}
