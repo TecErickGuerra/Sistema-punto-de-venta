@@ -1,9 +1,18 @@
 .reporte-ventas {
   margin-top: 1.5rem;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: #f9f9f9;
+  padding: 1.25rem;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--bg-card);
+  color: var(--text-main);
+  box-shadow: var(--shadow-sm);
+}
+
+.reporte-ventas h2,
+.reporte-ventas h3,
+.reporte-ventas p,
+.reporte-ventas li {
+  color: var(--text-main);
 }
 
 .reporte-ventas ul {
@@ -12,4 +21,9 @@
 
 .reporte-ventas li {
   margin-bottom: 0.5rem;
+}
+
+/* Make sure strong elements keep good contrast */
+.reporte-ventas strong {
+  color: var(--text-main);
 }
