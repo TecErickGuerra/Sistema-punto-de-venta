@@ -1,0 +1,7 @@
+{
+  "name": "punto-de-venta-root",
+  "private": true,
+  "scripts": {
+    "dev": "node dev.js"
+  }
+}
